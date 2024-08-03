@@ -10,7 +10,7 @@ Step-by-step machine learning process as part of this analysis:
 1. Import the modules.
 2. Read the lending_data csv file and create its dataframe.
 3. Create features from all columns except for loan status. Loan status was separated because it was the predicted variable.
-4. Split the data into training and testing.
+4. Split the data into training and testing sets.
 5. Import the LogisticRegression library.
 6. Instantiate the Logistic Regression model.
 7. Fit the model using the training data.
@@ -23,9 +23,9 @@ LogisticRegression from sklearn, train_test_split from sklearn, confusion_matrix
 
 ## Results
 Based on the classification report for the machine learning model:
--Accuracy score: predicted 0.99 
--Precision score: healthy loans (0) were predicted 1.00 and high-risk loans (1) were predicted 0.97
--Recall score: healthy loans (0) were predicted 1.00 and high-risk loans (1) were predicted 0.89
+* Accuracy score: predicted 0.99 
+* Precision score: healthy loans (0) were predicted 1.00 and high-risk loans (1) were predicted 0.97
+* Recall score: healthy loans (0) were predicted 1.00 and high-risk loans (1) were predicted 0.89
 
 ## Summary
 Overall, the model performed really well especially the healthy loans because for both precision and recall scores, they both predicted 100%, whereas for high-risk loans, they predicted 0.87 and 0.89, respectively.
